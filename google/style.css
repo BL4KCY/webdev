@@ -29,13 +29,12 @@
 	justify-content: center;
 	width: 40px;
 	height: 40px;
-	/* margin: 10px; */
 	flex-shrink: 0;
 }
 .box:hover {
-	/* position: absolute; */
 	z-index: 1;
-	transform: scale(1.5);
+	transform: scale(2.3);
+	box-shadow: 0px 0px 15px black;
 }
 .symbol, .name, .number, .mass, .type{
 	color: #E2EEFF;
