@@ -1,0 +1,96 @@
+.header {
+	display: flex;
+	direction: rtl;
+	/* justify-content: end; */
+	/* align-content: center; */
+	/* background-color: lightslategrey; */
+	height: 40px;
+	margin: 0px;
+	margin-top: 8px;
+	margin-right: 18px;
+	padding: 0px;
+}
+#sign_in {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0B57D0;
+	border-radius: 25px;
+}
+.sign_in {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	/* background-color: #1E64D4; */
+	width: 85px;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+#sign_in:hover {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.306);
+	background-color: #1E64D4;
+}
+#products {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	background-color: #F0F1F1;
+	margin-right: 10px;
+	border-radius: 25px;
+}
+.grid {
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-color: transparent;
+	width: 40px;
+	height: 40px;
+	border-radius: 25px;
+	margin-right: 10px;
+	border-radius: 25px;
+}.grid:hover{
+	background-color: #F0F1F1;
+}
+
+.images {
+	margin-right: 10px;
+	margin-top: 13px;
+	font-size: smaller;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}.images:hover{
+	text-decoration:underline;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	height: 300px;
+}
+
+#google-logo{
+	width: 280px;
+}
+
+.search_bar {
+	background-color: #0B57D0;
+	height: 200px;
+}
+
+html, body {
+	margin: 0px;
+	/* margin-top: 5px; */
+	/* margin-right: 13px; */
+	/* padding: 10; */
+}
