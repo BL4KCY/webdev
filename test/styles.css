@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: rgb(66, 116, 233);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding-top: 10vh;
+	gap: 2rem;
+}
+
+#newTask, form > button {
+	height: 2rem;
+	padding: 0.24rem;
+	border: none;
+	
+}
+
+#newTask {
+	width: 50vw;
+	outline: none;
+}
+
+#list {
+	width: 28rem;
+	overflow: scroll;
+	display: flex;
+	flex-flow: column;
+	align-items: start;
+	scrollbar-width: none;
+}
+
+#list > li {
+	display: flex;
+	list-style: none;
+	gap: 0.4rem;
+	font-size: 1.2em;
+}
+
+li > input {
+	width: 1.5rem;
+}
+
+li > button {
+	width: 1.2rem;
+	border: none;
+	aspect-ratio: 1 / 1;
+	background: no-repeat center url("https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-red-cross-paint-clipart-transparent-background-vector-png-image_7110618.png");
+	background-size: 2em;
+}
+
+
+
+
+
+
+
+
