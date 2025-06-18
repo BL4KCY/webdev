@@ -58,7 +58,11 @@ li > button {
 
 
 
-
+#clearAll {
+	padding: 0.34rem;
+	border: none;
+	outline: none;
+}
 
 
 
