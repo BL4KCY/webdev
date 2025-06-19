@@ -53,8 +53,8 @@ body {
 
 
 .weather-icon {
-	width: 16.8rem;
-	height: 16.8rem;
+	width: 14rem;
+	height: 14rem;
 	margin-top: 1.8rem;
 }
 
@@ -94,4 +94,17 @@ body {
 .humidity, .wind {
 	font-size: 1.7rem;
 	margin-top: -6px;
+}
+
+.weather {
+	display: none;
+}
+
+.error {
+	text-align: left;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	font-size: 1em;
+	color: #c85656;
+	display: none;
 }
