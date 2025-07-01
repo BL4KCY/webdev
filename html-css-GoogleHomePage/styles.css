@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -105,9 +109,15 @@ main {
 }
 
 .title-text {
-	font-size: 6em;
-	margin-top: 6rem;
-	/* background-color: red; */
+width: fit-content;
+    font-size: 10em;
+    background: linear-gradient(to right, #4086F4 28%, #eb4132 28%, #eb4132 42%, #FBBD01 42%, #FBBD01 57%, #4086F4 57%, #4086F4 72%, #31A952 72%,#31A952 77%, #eb4132 77%);
+    margin: 10rem auto 0;
+    padding: 3rem;
+    background-clip: text;
+    color: transparent;
+	font-family: 'Outfit';
+	font-weight: 500;
 }
 
 .search-bar{
